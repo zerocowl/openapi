@@ -24,21 +24,7 @@
       "id": 5,
       "title": "OPSKKK",
       "author": "typicode"
-    },
-    [
-      {
-        "id": 1,
-        "title": "json-server",
-        "author": "typicode"
-      }
-    ],
-    [
-      {
-        "id": 4,
-        "title": "json-server",
-        "author": "typicode"
-      }
-    ]
+    }
   ],
   "comments": [
     {
