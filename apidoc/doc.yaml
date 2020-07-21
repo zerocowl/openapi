@@ -5,17 +5,12 @@ info:
 servers:
   - url: 'http://localhost:3000'
 paths:
-  /user:
+  /posts:
     get:
-      summary: 'Sample endpoint: Returns details about a particular user'
-      operationId: listUser
+      summary: 'Sample endpoint: Returns all posts'
+      operationId: posts
       tags:
-        - user
-      parameters:
-        - name: id
-          in: query
-          description: ID of the user
-          required: true
+        - post
           schema:
             type: integer
             format: int32
