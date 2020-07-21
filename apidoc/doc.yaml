@@ -16,12 +16,7 @@ paths:
             format: int32
       responses:
         '200':
-          description: 'Sample response: Details about a user by ID'
-          headers:
-            x-next:
-              description: A link to the next page of responses
-              schema:
-                type: string
+          description: 'Sample response: All posts'
           content:
             application/json:
               schema:
