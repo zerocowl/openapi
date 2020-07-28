@@ -1,0 +1,26 @@
+openapi: "3.0.2"
+info:
+  title: Uma api
+  version: "0.1"
+servers:
+  - url: https://meuendpoint.com.br/
+
+paths:
+  /user:
+    get:
+      description: Lista os usuarios
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              examples:
+                teste:
+                  value:
+                    {
+                      "usuarios":
+                        [
+                          { "id": 1, "name": "padilha" },
+                          { "id": 2, "name": "junior" },
+                        ],
+                    }
